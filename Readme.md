@@ -181,3 +181,7 @@ Each API route inside /api is an independent serverless function.
 
 🧠 Summary
 
+Platform	SQLite3 Support	Persistent DB?	CI/CD
+Render	✅ (for demo)	❌	Auto on push
+EC2	✅	✅	Manual / GitHub Actions
+Vercel	⚠️ (read-only)	❌	Auto on push
